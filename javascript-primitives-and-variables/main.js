@@ -1,0 +1,15 @@
+const fullName = 'Daniel Hahn';
+const isCool = true;
+const totalPets = 1;
+console.log('Full Name: ', fullName);
+console.log('Is Cool: ', isCool);
+console.log('Total Pets: ', totalPets);
+console.log(typeof fullName);
+console.log(typeof isCool);
+console.log(typeof totalPets);
+const unknown = null;
+console.log(unknown);
+console.log(typeof unknown);
+let never;
+console.log(never);
+console.log(typeof never);
