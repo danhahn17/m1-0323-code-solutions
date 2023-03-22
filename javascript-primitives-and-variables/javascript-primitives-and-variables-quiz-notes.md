@@ -5,7 +5,7 @@
 After completing this exercise, you should be able to discuss or answer the following questions:
 
 - What is the purpose of variables?
-To store data
+To store data that can be manipulated/changed
 - How do you **declare** a variable?
 By using the var, let, or const variable (depending on the type of scope you want)
 - How do you initialize (**assign a value to**) a variable?
