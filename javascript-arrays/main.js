@@ -15,7 +15,7 @@ console.log('value of colors: ', colors);
 const students = ['Daniel', 'Shawn', 'Scott', 'Ariana'];
 
 const numberOfStudents = students.length;
-console.log('value of numberOfStudents: ' + numberOfStudents);
+console.log('There are ' + numberOfStudents + ' students in the class.');
 
 const lastIndex = numberOfStudents - 1;
 const lastStudent = students[lastIndex];
