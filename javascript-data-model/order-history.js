@@ -36,14 +36,10 @@ const orderHistory = [
     orderNumber: '114-2875557-9059409'
   },
   {
-    type1: 'Electronic',
-    type2: 'Book',
-    name1: '"GameCube Controller - Super Smash Bros. Edition (Nintendo Switch)"',
-    name2: '"The Art of Sql"',
-    author1: 'N/A',
-    author2: 'Faroult, Stephane',
-    initialCost1: '$94.95',
-    initialCost2: '$33.99',
+    type: ['Electronic', 'Book'],
+    name: ['"GameCube Controller - Super Smash Bros. Edition (Nintendo Switch)"', '"The Art of Sql"'],
+    author: ['N/A', 'Faroult, Stephane'],
+    initialCost: ['$94.95', '$33.99'],
     finalCost: '$138.93',
     orderDate: 'July 3, 2020',
     deliveryDate: 'July 5, 2020',
