@@ -64,11 +64,11 @@ console.log(dan.name + ' ' + 'is old enough to drink and drive:', isOldEnoughToD
 function categorizeAcidity(pH) {
   if (pH === 7) {
     return 'neutral';
-  } else if ((pH > 0) && (pH < 7)) {
+  } else if ((pH >= 0) && (pH < 7)) {
     return 'acid';
-  } else if ((pH > 7) && (pH < 14)) {
+  } else if ((pH > 7) && (pH <= 14)) {
     return 'base';
-  } else if ((pH >= 14) || (pH <= 0)) {
+  } else if ((pH > 14) || (pH < 0)) {
     return 'invalid pH level';
   }
 }
