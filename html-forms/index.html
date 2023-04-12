@@ -1,0 +1,77 @@
+<!--
+  Pretty sure I did something wrong - not 100% what exactly but I did want to get feedback before I looked at it again. :)
+-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>
+      HTML Forms
+    </title>
+  </head>
+  <body>
+
+    <h1>
+      Coding Form!
+    </h1>
+
+    <form>
+      <fieldset>
+        <p>
+          <label for="email">Email</label>
+        </p>
+        <input type="email" id="email" name="email" />
+      </fieldset>
+    </form>
+
+    <form>
+      <fieldset>
+        <p>
+          <label for="select">Why is coding cool?</label>
+        </p>
+        <select id="select" name="Why is Coding Cool?">
+          <option>Select an option</option>
+          <option>Because it's interesting</option>
+          <option>Because it's fun</option>
+          <option>Because it's powerful</option>
+        </select>
+      </fieldset>
+    </form>
+
+    <form>
+      <fieldset>
+        <legend>Favorite Language (choose one)</legend>
+        <input type="radio" id="language1" name="coding" value="language" />
+        <label for="language1">HTML</label>
+        <input type="radio" id="language2" name="coding" value="language" />
+        <label for="language2">CSS</label>
+        <input type="radio" id="language3" name="coding" value="language" />
+        <label for="language3">JavaScript</label>
+      </fieldset>
+    </form>
+
+    <form>
+      <fieldset>
+        <legend>Would you like to sign up for more information?</legend>
+        <input type="checkbox" id="question" name="signMeUp" value="yes"/>
+        <label for="question">Sign me up!</label>
+      </fieldset>
+    </form>
+
+    <form>
+      <fieldset>
+        <legend>Comments</legend>
+        <textarea cols="30" rows="8"></textarea>
+      </fieldset>
+    </form>
+
+    <form>
+      <fieldset>
+        <p>
+          <input type="submit" value="Submit">
+        </p>
+      </fieldset>
+    </form>
+
+  </body>
+</html>
