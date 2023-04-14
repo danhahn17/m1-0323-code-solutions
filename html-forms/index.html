@@ -1,7 +1,3 @@
-<!--
-  Pretty sure I did something wrong - not 100% what exactly but I did want to get feedback before I looked at it again. :)
--->
-
 <!DOCTYPE html>
 <html>
   <head>
@@ -16,61 +12,47 @@
     </h1>
 
     <form>
-      <fieldset>
-        <p>
-          <label for="email">Email</label>
-        </p>
-        <input type="email" id="email" name="email" />
-      </fieldset>
-    </form>
 
-    <form>
-      <fieldset>
-        <p>
-          <label for="select">Why is coding cool?</label>
-        </p>
-        <select id="select" name="Why is Coding Cool?">
-          <option>Select an option</option>
-          <option>Because it's interesting</option>
-          <option>Because it's fun</option>
-          <option>Because it's powerful</option>
-        </select>
-      </fieldset>
-    </form>
+      <p>
+        <label for="email">Email</label>
+      </p>
+      <input type="email" id="email" name="email" />
 
-    <form>
-      <fieldset>
-        <legend>Favorite Language (choose one)</legend>
-        <input type="radio" id="language1" name="coding" value="language" />
-        <label for="language1">HTML</label>
-        <input type="radio" id="language2" name="coding" value="language" />
-        <label for="language2">CSS</label>
-        <input type="radio" id="language3" name="coding" value="language" />
-        <label for="language3">JavaScript</label>
-      </fieldset>
-    </form>
+      <p>
+        <label for="select">Why is coding cool?</label>
+      </p>
+      <select id="select" name="Why is Coding Cool?">
+        <option value="n/a">Select an option</option>
+        <option value="interesting">Because it's interesting</option>
+        <option value="fun">Because it's fun</option>
+        <option value="powerful">Because it's powerful</option>
+      </select>
 
-    <form>
-      <fieldset>
-        <legend>Would you like to sign up for more information?</legend>
-        <input type="checkbox" id="question" name="signMeUp" value="yes"/>
-        <label for="question">Sign me up!</label>
-      </fieldset>
-    </form>
+      <p>
+        Favorite Language (choose one)
+      </p>
+      <input type="radio" id="language1" name="coding" value="language1" />
+      <label for="language1">HTML</label>
+      <input type="radio" id="language2" name="coding" value="language2" />
+      <label for="language2">CSS</label>
+      <input type="radio" id="language3" name="coding" value="language3" />
+      <label for="language3">JavaScript</label>
 
-    <form>
-      <fieldset>
-        <legend>Comments</legend>
-        <textarea cols="30" rows="8"></textarea>
-      </fieldset>
-    </form>
+      <p>
+        Would you like to sign up for more information?
+      </p>
+      <input type="checkbox" id="question" name="signMeUp" value="yes"/>
+      <label for="question">Sign me up!</label>
 
-    <form>
-      <fieldset>
-        <p>
-          <input type="submit" value="Submit">
-        </p>
-      </fieldset>
+      <label>
+        Comments
+      </label>
+      <textarea cols="30" rows="8"></textarea>
+
+      <p>
+        <input type="submit" value="Submit">
+      </p>
+
     </form>
 
   </body>
